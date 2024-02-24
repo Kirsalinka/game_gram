@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #141414;
+  color: #ffffff;
+  scroll-behavior: smooth;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@font-face {
+  font-family: "Satoshi Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Satoshi Regular"),
+    url("./assets/fonts/Satoshi-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Satoshi Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Satoshi Light"),
+    url("./assets/fonts/Satoshi-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Satoshi Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Satoshi Medium"),
+    url("./assets/fonts/Satoshi-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Satoshi Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Satoshi Bold"),
+    url("./assets/fonts/Satoshi-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Satoshi Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Satoshi Black"),
+    url("./assets/fonts/Satoshi-Black.woff") format("woff");
+}
