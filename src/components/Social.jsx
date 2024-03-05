@@ -72,7 +72,7 @@ export default function Social() {
             rel="noopener noreferrer"
             className={item.className}
           >
-            <img src={item.icon} alt={item.alt} />
+            <img src={item.icon} alt={item.alt} className="max-w-[48px]" />
           </a>
         ))}
       </div>

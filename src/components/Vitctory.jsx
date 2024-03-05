@@ -10,7 +10,7 @@ export default function Vitctory() {
         <div className="row-span-2 overflow-hidden sm:overflow-visible">
           <img
             src={victory_desktop}
-            className="sm:hidden scale-125 translate-x-[20%]"
+            className="sm:hidden scale-125 translate-x-[20%] translate-y-5"
             alt="Gamer Gram Victory Image"
           />
           <img
